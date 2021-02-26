@@ -1,0 +1,20 @@
+{
+  "description": "Checking webRequests geo location",
+  "manifest_version": 2,
+  "name": "check_geo",
+  "version": "1.0",
+
+  "permissions": [
+    "webRequest",
+		"webRequestBlocking",
+		"dns",
+		"storage",
+		"unlimitedStorage",
+		"notifications",
+    "<all_urls>"
+  ],
+
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
